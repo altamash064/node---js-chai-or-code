@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kevin Portfolio</title>
+    <link rel="stylesheet" href="css/main.css">
+    <script src="https://kit.fontawesome.com/277a24ece0.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+    <!-- -------Header Coding------ -->
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/logo.png" alt="logo.png" class="logo">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">Portfolio</a></li>
+                </ul>
+            </nav>
+            <div class="header_text">
+                <h1>UI/UX Designer</h1>
+                <p>Hi,I'm <span>Kevin</span> <br> Jen From Australia</p>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- -------About Coding----- -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/user.png">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>Hello I am Kevin Jen From Australia . I am the Owner Of The GreatStack Channel So You Can Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis, voluptate inventore odit velit at enim sit, iusto et incidunt quisquam ipsam laborum nulla minus culpa consectetur molestiae delectus, eum voluptates! Ducimus laborum perspiciatis, eos illo dolorem fugiat natus atque adipisci. </p>
+                
+                    <div id="tab-title">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li class="tab-"><span>UI/UX</span><br>Designing Web/App Interface</li>
+                            <li class="tab-"><span>Web Development</span><br>Web App Development</li>
+                            <li class="tab-"><span>App Development</span><br>Building Android/ios Apps</li>
+                        </ul>
+                    </div>
+
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li class="tab-"><span>2021 - Current</span><br>UI/UX Design Training at ET Institute</li>
+                            <li class="tab-"><span>2019 - 2021</span><br>Team Lead at StarApp LLC.</li>
+                            <li class="tab-"><span>2016 - 2019</span><br>UI/UX Design Executive at Coin Digital Ltd.</li>
+                            <li class="tab-"><span>2016 - 2017</span><br>Internship at ekart eCommerce.</li>
+                        </ul>
+                    </div>
+
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li class="tab-"><span>2016</span><br>UI/UX Design Training at ET Institute</li>
+                            <li class="tab-"><span>2016</span><br>MBA From MIT Bangalore.</li>
+                            <li class="tab-"><span>2017</span><br>BBA From ISM Bangalore.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- --------Services------- -->
+        <div id="services">
+            <div class="container">
+                 <h1 class="sub-title">My Services</h1>
+
+                 <div class="services-list">
+                    
+                        <div>
+                            <i class="fa-solid fa-code"></i>
+                            <h2>Web Design</h2>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione fugit nam rerum obcaecati atque nulla ipsam .</p>
+                            <a href="#">Learn More</a>
+                        </div>
+
+                        <div>
+                            <i class="fa-brands fa-uikit"></i>
+                            <h2>UI/UX Design</h2>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione fugit nam rerum obcaecati atque nulla ipsam .</p>
+                            <a href="#">Learn More</a>
+                        </div>
+
+                        <div>
+                            <i class="fa-brands fa-app-store"></i>
+                            <h2>Apps Design</h2>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione fugit nam rerum obcaecati atque nulla ipsam .</p>
+                            <a href="#">Learn More</a>
+                        </div>
+                    
+                 </div>
+            </div>
+        </div>
+    <!-- ---------Portfolio--------- -->
+        <div id="portfolio">
+            <div class="container">
+                <h1 class="sub-title">My Work's</h1>
+                <div class="work-list">
+                    <div class="work">
+                        <img src="images/work-1.png">
+                        <div class="layer">
+                            <h1>Social Media App</h1>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis doloribus qui amet</p>
+                            <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                        </div>
+                    </div>
+
+                    <div class="work">
+                        <img src="images/work-2.png">
+                        <div class="layer">
+                            <h1>Music App</h1>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis doloribus qui amet</p>
+                            <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                        </div>
+                    </div>
+
+                    <div class="work">
+                        <img src="images/work-3.png">
+                        <div class="layer">
+                            <h1>Online Shopping App</h1>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis doloribus qui amet</p>
+                            <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <a href="#" class="btn">See More</a>
+            </div>
+        </div>
+
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+            function opentab(tabname){
+                for(tablink of tablinks){
+                    tablink.classList.remove("active-link");
+                }
+
+                for(tabcontent of tabcontents){
+                    tabcontent.classList.remove("active-tab");
+                }
+
+                event.currentTarget.classList.add("active-link");
+                document.getElementById(tabname).classList.add("active-tab");
+            }
+    </script>
+
+</body>
+</html>
